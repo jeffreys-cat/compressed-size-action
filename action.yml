@@ -1,5 +1,5 @@
-name: 'compressed-size-action'
-description: 'Get compressed size differences for every PR'
+name: 'compressed-size-action-test'
+description: 'Test APP, Do Not USE THIS ACION!!!!'
 author: 'Jason Miller'
 branding:
   icon: 'archive'
