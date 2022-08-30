@@ -139,6 +139,10 @@ async function run(octokit, context, token) {
 		installScript = `npm ci`;
 	}
 
+	if (getInput('install-script')) {
+		installScript = getInput('install-script');
+	}
+
 	console.log(`Installing using ${installScript}`);
 	await exec(installScript);
 	endGroup();
